@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # Use environment variables for security
-TOKEN = os.getenv("TOKEN")
-CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
+TOKEN = os.getenv("7982376961:AAFf-SRqyFyTEZFw7zi-5PdqRyyrdMgRK40")
+CHANNEL_ID = int(os.getenv("-1002443574063 "))
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
